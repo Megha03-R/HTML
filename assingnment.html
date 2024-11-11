@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .carousel-inner .row{
+        display: flex;
+    }
+    .card{
+        margin: 10px;
+    }
+   </style>     
+</head>
+<body style="background-color:beige;">
+    <nav class=" navbar navbar-expand-lg navbar-dark fixed-top " style="background-color:black" >
+        <div class="container-fluid">
+            <a class="navbar-brand" style="font-weight: bold;font-family: cursive;" href="#">Ekart</a>
+            <button class="navbar-toggler" type="button" data-ds-toggle="collapse" data-ds-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"   aria-expanded="false" aria-label="Toggle-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"></a>
+        
+         </li>
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Fashion</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: beige;">
+            <li><a class="dropdown-item" href="#">Kids</a>
+            </li>
+            <li><a class="dropdown-item" href="#">Men</a></li>
+           
+            <li><a class="dropdown-item" href="#">Women</a></li>
+        </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#"></a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Electronics</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:beige;">
+            <li><a class="dropdown-item" href="#">Mobiles</a>
+            </li>
+            <li><a class="dropdown-item" href="#">Telivision</a></li>
+            <li><a class="dropdown-item" href="#">Laptops</a></li>
+        </ul>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active">Beauty</a>
+    </li>
+        </li>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active">Crockeries</a>
+    </li>
+        <li class="nav-item">
+            <a class="nav-link active">AboutUs</a>
+        </li>
+        </ul>
+        <!----<form class="d-flex">-->
+           <input class="form-control custom-input w-50" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          <div class="navbar">
+                <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a>
+                <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+                </div>
+            </div>
+        <!--</form>-->
+        </div>
+        </div>
+        </nav>
+           <div class="container-fluid mt-3">
+            <h2>Carousel Example</h2>
+        </div>
+    <div id="demo" class="carousel slide carousel-dark" data-bs-carousel="carousel" data-bs-ride="carousel" data-interval="200">
+            <div class="carousel-inner">
+                <div class="carousel-item active " style="height: 400px;">
+                    <img src="carousl.png" alt="Shopping" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Shopping Site</h3>
+                    </div>
+                </div>
+                <div class="carousel-item " style="height:400px;">
+                    <img src="wbsit.png" alt="Helooo" class="d-block" style="width: 100%;">
+                    <div class="carousel-caption">
+                        
+                    </div>
+                </div>
+                <div class="carousel-item " style="height: 600px;">
+                    <img src="websitec.jpg" alt="welcome" class="d-block w-100">
+                    <div class="carousel-caption">
+                        
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>  
+                  </button>
+    
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+       <div class="carousel-inner">
+        <div class="carousel-item-active">
+            <div class="row">
+                
+      
+        <div class="card" style="width:320px">
+          <img class="card-img-top" src="fasion.jpeg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Fashion</h4>
+            
+            <p class="card-text">Mens,Women and Kids Collection from ₹99</p>
+            <a href="#" class="btn btn">See More </a>
+          </div>
+        </div>
+        <div class="card" style="width:320px">
+            <img class="card-img-right" src="iphn.jpeg" alt="Card image" style="width:80%">
+            <div class="card-body">
+              <h4 class="card-title">Iphone 13</h4>
+              <p class="card-text">Grab it  now for the best price</p>
+              <h5> ₹40,000</h5> </div>
+          </div>
+        <div class="card" style="width:320px">
+            <img class="card-img-right" src="beauty.jpeg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Beauty Produts</h4>
+               <p class="card-text">Grab it for the best price</p>
+              <a href="#" class="btn btn">See More </a>
+            </div>
+          </div>
+          <div class="card" style="width:320px">
+            <img class="card-img-right" src="crockeries.jpeg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Kitchen Utensils</h4>
+              <p class="card-text"> Kitchen Steel Produts</p>
+              <h5>₹1000</h5>
+            </div></div>
+          <div class="card" style="width:300px">
+            <img class="card-img-right" src="sandals.jpeg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <p class="card-text">Women Leather Sandal</p>
+              <h5>₹400</h5>
+              </div></div></div>
+    </div></div>
+     <br></body>
+</html>
